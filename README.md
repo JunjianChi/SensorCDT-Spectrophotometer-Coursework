@@ -1,4 +1,4 @@
-# Cambridge_SensorCDT_Spectral_Sensor
+# SensorCDT Spectrophotometer Cousework
 Low-cost Spectrophotometer for Juice Classification
 ===================================================================================
 
