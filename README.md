@@ -2,29 +2,21 @@
 Low-cost Spectrophotometer for Juice Classification
 ===================================================================================
 
-Juice concentration estimation often uses commercial spectrophotometers that measure the absorption of light transmitting through the liquid sample. Due to the expensive cost of such instruments, this motivates the design a low-cost version that could be reproduced from inexpensive components in other laboratories. In this work, we present a 3D-printed reproducible spectrophotometer system integrating an Arduino MCU with AS7343 spectral sensor. The system captures 12-channel spectral measurements for three types of juice, with three different brands for each type. These measurements are pre-processed and used to train machine learning models for juice type and concentration classification. Based on the performance on an independent test set, the best two models achieve a test accuracy of 100% for juice type classification, and 82.35% for concentration classification.
+In this work, we present a 3D-printed reproducible spectrophotometer system integrating an Arduino MCU with AS7343 spectral sensor. 12-channel raw measurements are pre-processed and used to train machine learning models for juice type and concentration classification. Based on the performance on an independent test set, the best two models achieve a test accuracy of 100% for juice type classification, and 82.35% for concentration classification.
 
-![Spectral Sensor System](Document/pics/spectral_sensor_system.png)
-
-Repository Structure
---------------------
-
-.
-├── Data/                 Raw spectral datasets
-├── Data_analysis/        Data analysis and machine learning scripts
-├── Document/             Documentation, figures, and report
-│   └── pics/
-├── Firmware/             Arduino / PlatformIO firmware
-├── PC/                   Python-based data acquisition and inference
-├── STL/                  3D-printable mechanical parts
-└── README.txt
-
+<p align="center">
+  <img src="Document/pics/spectral_sensor_system.png" width="500">
+</p>
 
 Mechanical Assembly
 -------------------
 
 3D assembly reference image:
-![3D-Printed Modules](Document/pics/Document/pics/3d.png)
+
+<p align="center">
+  <img src="Document/pics/3d.png" width="500">
+</p>
+
 
 The mechanical enclosure consists of three 3D-printed components located in the
 STL folder.
@@ -127,10 +119,7 @@ Spectral sensor not detected:
 - Check sensor address and power supply.
 
 Inconsistent readings:
-- Use a stable light source.
 - Minimize ambient light interference.
-- Secure the sample holder to prevent movement.
-
 
 License
 -------
