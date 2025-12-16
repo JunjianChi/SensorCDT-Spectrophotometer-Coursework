@@ -1,0 +1,16 @@
+model,preprocess,seed,class,precision,recall,f1,support
+gradient boosting,mean,42,high,0.75,0.6,0.6666666666666665,5
+gradient boosting,mean,42,low,0.45454545454545453,0.8333333333333334,0.5882352941176471,6
+gradient boosting,mean,42,medium,0.0,0.0,0.0,6
+logistic regression,mean,42,high,0.5,0.2,0.28571428571428575,5
+logistic regression,mean,42,low,0.36363636363636365,0.6666666666666666,0.4705882352941177,6
+logistic regression,mean,42,medium,0.25,0.16666666666666666,0.2,6
+random forest,mean,42,high,0.8333333333333334,1.0,0.9090909090909091,5
+random forest,mean,42,low,0.75,1.0,0.8571428571428571,6
+random forest,mean,42,medium,1.0,0.5,0.6666666666666666,6
+svm_lin,mean,42,high,0.75,0.6,0.6666666666666665,5
+svm_lin,mean,42,low,0.4,0.6666666666666666,0.5,6
+svm_lin,mean,42,medium,0.0,0.0,0.0,6
+svm_rbf,mean,42,high,0.5,0.2,0.28571428571428575,5
+svm_rbf,mean,42,low,0.42857142857142855,1.0,0.6,6
+svm_rbf,mean,42,medium,0.0,0.0,0.0,6

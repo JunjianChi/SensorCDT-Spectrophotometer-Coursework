@@ -19,13 +19,13 @@
 
 //==================== internal helpers ====================//
 
-// STATUS2.AVALID bit（数据有效标志）
+// STATUS2.AVALID bit
 #define AS7343_STATUS2_AVALID_BIT   (1 << 6)
 
-static uint16_t s_dataReadyTimeoutMs = 100; // golbal wait time, controlled by spectro_app
+static uint16_t s_dataReadyTimeoutMs = 100; // global wait time, controlled by spectro_app
 
 /**
- * @brief 等待一次光谱测量完成 (STATUS2.AVALID = 1)
+ * @brief wait until one time measurement (STATUS2.AVALID = 1)
  * @param s_dataReadyTimeoutMs unit ms
  */
 static bool AS7343_wait_data_ready(void)
@@ -196,7 +196,6 @@ bool AS7343_read_single_channel(AS7343_Channel_t ch, uint16_t *value)
     if (value == NULL)
         return false;
 
-    // 数据寄存器在 Bank 0，保证 bank 正确
     if (!AS7343_set_reg_bank(AS7343_REG_BANK_0))
         return false;
 

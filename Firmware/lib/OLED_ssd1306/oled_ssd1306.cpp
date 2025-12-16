@@ -450,6 +450,9 @@ void oled_show_mode(void){
   if (spectro_app_get_mode() == SPECTRO_APP_MODE_DATA_LOG) {
     oled_show_string(45, 0, "Mode", 16);
     oled_show_string(35, 2, "Data Log", 16);
+    // oled_show_string(30, 0, "Detected:", 16);
+    // oled_show_string(20, 2, "Apple Juice", 16);
+    // oled_show_string(27, 4, "%: Medium", 16);
   } else if (spectro_app_get_mode() == SPECTRO_APP_MODE_INFER_LOCAL) {
     oled_show_string(45, 0, "Mode", 16);
     oled_show_string(35, 2, "Infer Local", 16);
