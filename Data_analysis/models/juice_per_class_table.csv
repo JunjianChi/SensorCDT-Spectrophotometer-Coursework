@@ -1,0 +1,16 @@
+model,preprocess,seed,test_size,class,precision,recall,f1,support
+gradient boosting,l1,42,0.2,apple,1.0,1.0,1.0,5
+gradient boosting,l1,42,0.2,grape,1.0,1.0,1.0,6
+gradient boosting,l1,42,0.2,orange,1.0,1.0,1.0,6
+logistic regression,l1,42,0.2,apple,0.5555555555555556,1.0,0.7142857142857143,5
+logistic regression,l1,42,0.2,grape,1.0,0.6666666666666666,0.8,6
+logistic regression,l1,42,0.2,orange,1.0,0.6666666666666666,0.8,6
+random forest,l1,42,0.2,apple,1.0,1.0,1.0,5
+random forest,l1,42,0.2,grape,1.0,1.0,1.0,6
+random forest,l1,42,0.2,orange,1.0,1.0,1.0,6
+svm_lin,l1,42,0.2,apple,0.625,1.0,0.7692307692307693,5
+svm_lin,l1,42,0.2,grape,1.0,0.6666666666666666,0.8,6
+svm_lin,l1,42,0.2,orange,1.0,0.8333333333333334,0.9090909090909091,6
+svm_rbf,l1,42,0.2,apple,0.8333333333333334,1.0,0.9090909090909091,5
+svm_rbf,l1,42,0.2,grape,1.0,0.8333333333333334,0.9090909090909091,6
+svm_rbf,l1,42,0.2,orange,1.0,1.0,1.0,6
