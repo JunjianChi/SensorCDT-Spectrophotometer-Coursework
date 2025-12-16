@@ -8,6 +8,13 @@ In this work, we present a 3D-printed reproducible spectrophotometer system inte
   <img src="Document/pics/spectral_sensor_system.png" width="500">
 </p>
 
+Example Readout:
+
+<p align="center">
+  <img src="Document/pics/juice_different.png" width="500">
+</p>
+
+
 Mechanical Assembly
 -------------------
 
@@ -30,8 +37,8 @@ Assembly steps:
    - Supports: not required
 4. Assemble the enclosure using the screws listed below.
 
-Required Fasteners
-------------------
+### Required Fasteners
+
 - 4 × M3 screws
 - 2 × M2 screws
 
@@ -76,8 +83,7 @@ Setup steps:
 PC-Side Software
 ----------------
 
-Python scripts for data acquisition, machine learning inference, and evaluation are
-located in the PC folder.
+Python scripts for data acquisition, machine learning inference, and evaluation are located in the PC folder.
 
 Install required dependencies using:
 
